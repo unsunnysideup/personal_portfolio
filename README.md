@@ -1,2 +1,2 @@
 # personal_portfolio
-my persna
+my personal website <3
