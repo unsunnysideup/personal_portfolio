@@ -1,2 +1,2 @@
-# personal_portfolio
-my persna
+# portfolio website
+my personal site, a wip
