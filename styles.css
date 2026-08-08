@@ -27,6 +27,17 @@
     font-style: normal;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -45,6 +56,9 @@ body {
     background-size: cover;
     font-family: 'frederick_the_great';
     cursor: url('cursors/cursor-arrow.svg') 4 3, auto;
+    opacity: 0;
+    /* Start invisible */
+    animation: fadeIn 1.5s ease-in forwards;
 
 }
 
@@ -194,7 +208,7 @@ a {
 
 section {
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 h2 {
@@ -241,6 +255,7 @@ h2 {
         gap: 5%;
 
         .highlight {
+            text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
             margin-left: 5%;
             color: #492E1C;
             font-size: 38px;
@@ -293,4 +308,65 @@ h2 {
 
 #blue {
     color: #3773E1;
+}
+
+#work {
+    margin-left: 72%;
+    transform: rotate(8.44deg);
+}
+
+.portfolio {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    #row1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 10%;
+
+    }
+
+    #nyc {
+        display: flex;
+        margin-right: -8%;
+        margin-top: -12%;
+        transform: rotate(-2.773deg);
+
+    }
+
+    #fair {
+        display: flex;
+        margin-right: -5%;
+        margin-top: -15%;
+
+    }
+
+    #row2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    #decor-arrow1 {
+        display: flex;
+        margin-left: -3%;
+        margin-top: -5%;
+    }
+
+    #heart {
+        display: flex;
+        margin-top: -9%;
+        margin-left: 4%;
+        transform: rotate(11deg);
+    }
+
+    #travel {
+        display: flex;
+        margin-left: 10%;
+        margin-top: -5%;
+    }
+
 }
