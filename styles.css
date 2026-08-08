@@ -27,6 +27,14 @@
     font-style: normal;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -91,7 +99,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 
 }
 
@@ -101,14 +109,14 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    
+
 }
 
 #pfp {
     position: absolute;
     top: -15px;
     left: -15px;
-    
+
 }
 
 #intro {
@@ -153,7 +161,7 @@ a {
         background-size: 100% 100%;
         align-items: center;
         justify-content: center;
-        margin-top: 1%;
+        margin-top: 3%;
 
 
         color: #FEFDF8;
@@ -173,7 +181,8 @@ a {
     }
 
     #ps {
-        margin-top: 8%;
+        margin-left: 1%;
+        margin-top: 9%;
         color: rgba(0, 0, 0, 0.57);
         font-family: "special-elite";
         font-size: 14px;
@@ -181,4 +190,107 @@ a {
         font-weight: 400;
         line-height: normal;
     }
+}
+
+section {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    margin-left: 4%;
+    margin-bottom: 2%;
+    transform: rotate(-4.659deg);
+    padding: 50px 60px;
+    text-decoration: none;
+    display: inline-flex;
+    background-image: url('img/section-button.png');
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+
+
+    color: #FEFDF8;
+    font-family: "frederick_the_great";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 8%;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    text-align: center;
+
+
+
+}
+
+.about-me {
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+
+        .highlight {
+            margin-left: 5%;
+            color: #492E1C;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-skip-ink: none;
+            text-decoration-color: rgba(255, 230, 0, 0.89);
+            text-decoration-thickness: 120%;
+            text-underline-offset: -100%;
+            text-underline-position: from-font;
+            margin-bottom: 5%;
+        }
+
+        li {
+            margin-left: 7%;
+            margin-bottom: 3%;
+            color: #492E1C;
+            font-family: "special-elite";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+
+        }
+    }
+
+    .piechart {
+        display: flex;
+        margin-right: 6%;
+        margin-top: -10%;
+    }
+
+}
+
+#red {
+    color: #FF0004;
+}
+
+#squiggly {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 11%;
+    text-underline-offset: 14%;
+    text-underline-position: from-font;
+}
+
+#blue {
+    color: #3773E1;
 }
