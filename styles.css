@@ -504,11 +504,11 @@ h2 {
         justify-content: center;
         gap: 1%;
         margin-top: -5%;
+        margin-left: -5%;
 
 
         .comment {
             margin-top: 4%;
-            margin-right: 2%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -516,7 +516,7 @@ h2 {
 
             p {
                 font-family: "special-elite";
-                font-size: 30px;
+                font-size: 32px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -524,7 +524,7 @@ h2 {
             }
 
             img {
-                margin-left: 50%;
+                margin-left: 40%;
                 margin-top: -10%;
                 height: 250.18px;
                 width: 250.18px;
