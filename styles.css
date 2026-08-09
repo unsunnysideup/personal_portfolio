@@ -38,9 +38,6 @@
 }
 
 
-::-webkit-scrollbar {
-    display: none;
-}
 
 html {
     scroll-behavior: smooth;
@@ -75,22 +72,21 @@ a {
 
 .navbar {
     display: flex;
+    justify-content: flex-start;
 
     ul {
         list-style-type: none;
         display: flex;
+        justify-content: flex-start;
         padding-left: 5%;
         padding-top: 2%;
         align-items: center;
-        gap: 15%;
+        gap: 10%;
 
-
-        li {
-            float: left;
-        }
     }
 
     a {
+        display: flex;
         text-decoration: none;
         padding: 20px 30px;
         font-family: 'cabin-sketch-regular';
@@ -106,6 +102,7 @@ a {
         color: white;
         font-size: 28px;
     }
+
 
 }
 
@@ -450,6 +447,10 @@ section h2 {
         .platform img {
             height: 230px;
             width: 230px;
+        }
+
+        .platform a {
+            display: inline-flex;
         }
 
         #arrow1 {
