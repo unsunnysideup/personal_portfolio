@@ -444,13 +444,17 @@ section h2 {
         display: flex;
         flex-direction: row;
 
-        .platform img {
-            height: 230px;
-            width: 230px;
-        }
 
-        .platform a {
-            display: inline-flex;
+        .platform {
+            display: inline-block;
+            width: fit-content;
+            height: fit-content;
+
+            img {
+                display: block;
+                height: 230px;
+                width: 230px;
+            }
         }
 
         #arrow1 {
@@ -524,6 +528,7 @@ section h2 {
 
             }
 
+
             img {
                 margin-left: 40%;
                 margin-top: -10%;
@@ -532,6 +537,7 @@ section h2 {
                 transform: scaleX(-1) rotate(125deg);
 
             }
+
 
         }
 
